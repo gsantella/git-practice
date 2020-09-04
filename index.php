@@ -1,29 +1,47 @@
-<h1>Hello World!</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<hr/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<?php include('includes/ben.php') ?>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
 
-<hr/>
+    <div class="container" style="border: 1px solid">
+        <div class="row">
+            <div class="col-sm" style="border: 1px solid">
+                <?php include('includes/ben.php') ?>
+            </div>
+            <div class="col-sm" style="border: 1px solid">
+                <?php include('includes/caleb.php') ?>
+            </div>
+            <div class="col-sm" style="border: 1px solid">
+                <?php include('includes/david.php') ?>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm" style="border: 1px solid">
+                <?php include('includes/gavin.php') ?>
+            </div>
+            <div class="col-sm" style="border: 1px solid">
+                <?php include('includes/sam.php') ?>
+            </div>
+            <div class="col-sm" style="border: 1px solid">
+                <?php include('includes/scott.php') ?>
+            </div>
+        </div>
+    </div>
 
-<?php include('includes/caleb.php') ?>
-
-<hr/>
-
-<?php include('includes/david.php') ?>
-
-<hr/>
-
-<?php include('includes/gavin.php') ?>
-
-<hr/>
-
-<?php include('includes/guido.php') ?>
-
-<hr/>
-
-<?php include('includes/sam.php') ?>
-
-<hr/>
-
-<?php include('includes/scott.php') ?>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
