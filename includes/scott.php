@@ -2,3 +2,5 @@
 
 <p>Today is <?= date("l"); ?>!</p>
     <p> <?= date("m-d-y");?></p> 
+	<br>
+<p>I like chocolate milk</p>
