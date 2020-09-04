@@ -2,5 +2,4 @@
 
 <p>Today is <?= date("l"); ?>!</p>
     <p> <?= date("m-d-y");?></p> 
-	<br>
 <p>There weather will be sunny and a high of 75&#176F</p>
