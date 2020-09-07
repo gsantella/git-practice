@@ -1,4 +1,6 @@
 {
+    "name":"git-practice",
+    "description":"",
     "require": {
        "glicer/link-checker": "dev-master"
     }
