@@ -1,5 +1,5 @@
 {
-    "name":"git-practice",
+    "name":"gsantella/git-practice",
     "description":"",
     "require": {
        "glicer/link-checker": "dev-master"
