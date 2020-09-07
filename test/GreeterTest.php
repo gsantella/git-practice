@@ -1,9 +1,9 @@
 <?php
 
+namespace App\Test;
+
 # todo: Autoloading would eliminate this line
 require __DIR__ . "/../src/Greeter.php";
-
-namespace App\Test;
 
 use App\Greeter;
 
