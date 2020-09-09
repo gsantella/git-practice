@@ -1,6 +1,6 @@
 <?php
     $bold = "";
-    $rand = "no"//rand(0,1);
+    $rand = rand(0,1);
     if ($rand == 0)
     {
         $bold = "bold";
