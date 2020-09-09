@@ -1,4 +1,4 @@
 <?php
- $name = "Gavin"; 
+ $name = "Gavin Black"; 
  ?>
-<h1>My name is <?= print $name ?></h1>
+<h2>My name is <?= print $name ?></h2>
