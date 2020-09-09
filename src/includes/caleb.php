@@ -4,3 +4,5 @@
     $blue = rand(10, 245);
 ?>
 <p style="color:rgb(<?=$red?>, <?=$green?>, <?=$blue?>)">Caleb Morningstar, testing php uploads----MODIFIED</p>
+<p>Adding from repl.it</p>
+<p>Repl is working!!!!!!!!!!!!!</p>
